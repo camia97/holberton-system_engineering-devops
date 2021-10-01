@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -type f  -empty | sort -i | rev | cut -d "/" -f 1 | rev  
+find ./ -type d  -empty | sort -i | rev | cut -d "/" -f 1 | rev  
