@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Read and cut
+while read -r LREAD
+do
+    echo "$LREAD" | cut -d: -f1,2,6
+done < /etc/passwd
