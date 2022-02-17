@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+for d in *; do
+	d=$(echo "$d" | cut -d "-" -f2)
+	echo "$d"
+done
