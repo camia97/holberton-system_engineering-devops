@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Superstitious numbers
 i=0
 while ((i++ < 20)); do echo $i
 case $i in

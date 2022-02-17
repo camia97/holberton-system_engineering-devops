@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#Display 10 times Best School with until
 i=0; until ((i>=10)); do echo 'Best School'; ((i++)); done

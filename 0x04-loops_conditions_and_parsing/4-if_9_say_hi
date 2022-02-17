@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#Use of if in while
 i=0
 while ((i++ < 10)); do echo 'Best School'; if ((i==9)); then echo 'Hi'; fi; done
