@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Double the number of webservers
+sudo apt-get update
+sudo apt install nginx -y
+sudo service nginx start
+sudo sed -i '/location/a \   add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+sudo service nginx restart 
