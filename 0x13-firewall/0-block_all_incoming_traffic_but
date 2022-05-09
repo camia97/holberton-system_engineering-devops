@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-# Block all incoming traffic but
 sudo apt-get update
 sudo apt-get install -y ufw
 sudo ufw allow 22
