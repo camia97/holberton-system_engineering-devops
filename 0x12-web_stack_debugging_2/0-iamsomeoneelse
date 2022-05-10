@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run software as another user
-if [ -z "$1"];
+if [ -z "$1" ];
 then
 	whoami
 else
